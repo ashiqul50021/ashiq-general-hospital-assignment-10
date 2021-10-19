@@ -1,0 +1,81 @@
+[
+    { 
+        "id": 1,
+        "name":"Dr. Anjelina jelly",
+        "title":"Obstetrics and gynaecology",
+        "img":"https://i.ibb.co/1vn6tpx/doctor1.png",
+        "description":"Obstetrics and gynaecology or obstetrics and gynecology is the medical special",
+        "phone":"017585222514",
+        "fee":"200 USD",
+        "shift": "sat-sun :11.00 AM - 9 PM"
+    },
+    {
+        "id": 2,
+        "name":"Dr. Ashiq Sarkar",
+        "title":"Neurology",
+        "img":"https://i.ibb.co/1Mr0rzM/doctor2.png",
+        "description":"Neurology is a branch of medicine dealing with disorders of the nervous system",
+        "phone":"017585222514",
+        "fee":"200 USD",
+        "shift": "sat-sun :11.00 AM - 9 PM"
+    },
+    {
+        "id": 3,
+        "name":"Dr. Rasel Mahmud",
+        "title":"Medicine Specialist",
+        "img":"https://i.ibb.co/z6h8NLn/doctor3.png",
+        "description":"Medicine is the science and practice of caring for a patient, managing the diagnosis",
+        "phone":"017585222514",
+        "fee":"200 USD",
+        "shift": "sat-sun :11.00 AM - 9 PM"
+    },
+    {
+        "id": 4,
+        "name":"Dr. komola benerjee",
+        "title":"Child Health",
+        "img":"https://i.ibb.co/Q6LcR1C/doctor4.png",
+        "description":"Child health is a state of physical, mental, intellectual, social and emotional",
+        "phone":"017585222514",
+        "fee":"200 USD",
+        "shift": "sat-sun :11.00 AM - 9 PM"
+    },
+    {
+        "id": 5,
+        "name":"Dr. Ahnaf Ahmed",
+        "title":"Dental",
+        "img":"https://i.ibb.co/6Ypr88S/doctor5.png",
+        "description":"Dentistry, also known as dental medicine and oral medicine, is a branch of medicine ","phone":"017585222514",
+        "fee":"200 USD",
+        "shift": "sat-sun :11.00 AM - 9 PM"
+    },
+    {
+        "id": 6,
+        "name":"Dr. Absar Uddin",
+        "title":"Gastroenterology",
+        "img":"https://i.ibb.co/stv5Qds/doctor6.png",
+        "description":"Gastroenterology is the study of the normal function and diseases of the esophagus, ",
+        "phone":"017585222514",
+        "fee":"200 USD",
+        "shift": "sat-sun :11.00 AM - 9 PM"
+    },
+    {
+        "id": 7,
+        "name":"Dr. Jafor Saleh",
+        "title":"Specialist",
+        "img":"https://i.ibb.co/PF8V3px/doctor7.png",
+        "description":"Medicine is the science and practice of caring for a patient, managing the diagnosis, ",
+        "phone":"017585222514",
+        "fee":"200 USD",
+        "shift": "sat-sun :11.00 AM - 9 PM"
+    },
+    {
+        "id": 8,
+        "name":"Dr. Sabikunnahar Safa",
+        "title":"Obstetrics and gynaecology",
+        "img":"https://i.ibb.co/4RDK0vP/doctor8.png",
+        "description":"Obstetrics and gynaecology or obstetrics and gynecology is the medical specialty that ",
+        "phone":"017585222514",
+        "fee":"200 USD",
+        "shift": "sat-sun :11.00 AM - 9 PM"
+    }
+]
