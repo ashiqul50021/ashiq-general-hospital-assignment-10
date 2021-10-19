@@ -20,17 +20,17 @@ const Navbar = () => {
                         <div class="collapse navbar-collapse" id="navbarSupportedContent ">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item ">
-                                    <Link class="nav-link menu-color" aria-current="page" to="/">Home</Link>
+                                    <Link class="nav-link menu-color" aria-current="page" to="/home">Home</Link>
                                 </li>
                                 <li class="nav-item">
                                     <Link class="nav-link menu-color" to="/doctors">Doctors</Link>
                                 </li>
 
                                 <li class="nav-item">
-                                    <Link class="nav-link menu-color" to="/">Our Service</Link>
+                                    <Link class="nav-link menu-color" to="/ourservice">Our Service</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class="nav-link menu-color" to="/">Contact us</Link>
+                                    <Link class="nav-link menu-color" to="/contactus">Contact us</Link>
                                 </li>
                                 <li class="nav-item">
                                     <Link class="nav-link menu-color" to="/"><FontAwesomeIcon icon={faSistrix} /></Link>
@@ -53,12 +53,6 @@ const Navbar = () => {
                                         <button className="btn btn-dark" onClick={logout}>log out</button>
                                         </div>
                                 }
-
-                               
-
-
-
-
 
 
                             </ul>
