@@ -12,12 +12,13 @@ const Contactus = () => {
         backgroundRepeat: 'no-repeat',
         width: '100%',
         height: '100%',
+        // marginBottom: '30px',
 
     }
     return (
-        <div className="mt-5">
+        <div className="mt-5 mb-5">
             <h1 className="text-center">CONTUCT US</h1>
-           <div className="container" style={contactStyle}>
+           <div className="container-fluid" style={contactStyle}>
                <div className="row">
                    <div className="col-md-6">
                        <div className="shadow-lg p-3 mb-5 bg-body rounded mt-5 m-5">
@@ -29,8 +30,8 @@ const Contactus = () => {
                        <p><FontAwesomeIcon icon={faPowerOff}/>  Mon-Sun 9.00 Am - 12.00 Am</p>
                        </div>
 
-                   </div>
-                   <div className="col-md-6">
+                   </div >
+                   <div className="col-md-6 mb-5">
 
                    </div>
                </div>

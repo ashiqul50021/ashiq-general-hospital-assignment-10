@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-// import DoctorsDetails from '../../Doctorslist/DoctorsDetails';
+
 
 const DoctorsBooked = () => {
     const { doctorsId } = useParams();

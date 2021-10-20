@@ -108,7 +108,7 @@ const useFirebase = () => {
             return;
         }
 
-        isLogin ? processLogin(email, password) : registerNewUser(email, password);
+        isLogin ? processLogin(email, password) : registerNewUser( email, password);
 
 
 
@@ -129,13 +129,15 @@ const useFirebase = () => {
 
     }
 
-    const registerNewUser = (email, password) => {
+    const registerNewUser = ( email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
                 console.log(user);
-                setError('');
                 setUserName();
+                setError('');
+
+                
             })
             .catch(error => {
                 setError(error.message);

@@ -37,20 +37,20 @@ const Navbar = () => {
                                 </li>
                                 {
                                     !user.email || user.name ?
-                                        
-                                            
-                                                <Link class="btn btn-dark mx-2" to="/register" role="button"> Register/Login </Link>
-                                            
 
-                                           
-                                               
 
-                                            
-                                        
+                                        <Link class="btn btn-dark mx-2" to="/register" role="button"> Register/Login </Link>
+
+
+
+
+
+
+
                                         :
                                         <div className="d-flex">
-                                            <span class="nav-link menu-color">Hey, { user.displayName }</span>
-                                        <button className="btn btn-dark" onClick={logout}>log out</button>
+                                            <span class="nav-link menu-color">Hey, {user.displayName}</span>
+                                            <button className="btn btn-dark" onClick={logout}>log out</button>
                                         </div>
                                 }
 

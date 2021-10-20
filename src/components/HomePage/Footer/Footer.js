@@ -4,13 +4,13 @@ import footerlogo from '../../../images/logo.png';
 const Footer = () => {
     return (
         <div>
-            <div style={{backgroundColor:"#212529", height:"100%", overflow:"hidden", marginTop:"90px"}}>
+            <div style={{backgroundColor:"#212529", height:"100%", overflow:"hidden", marginTop:""}}>
 <div className="container">
     <div className="row">
     <div className="col-md-6 mt-2">
         <img src={footerlogo} alt="" />
         <hr style={{color:"#395A7D", width:"50%"}}/>
-        <p style={{color:"#395A7D",marginTop:"30%"}}>Copyright @ Ashiqul Islam Rasel</p>
+      
 
     </div>
     <div className="col-md-6 mt-5">
@@ -29,9 +29,11 @@ const Footer = () => {
             <p>Shop near me</p>
             <hr />
         </div>
+        
         </div>
     </div>
     </div>
+    <p style={{color:"#395A7D",marginTop:""}}>Copyright @ Ashiq General Hospital</p>
 </div>
 
 </div>
