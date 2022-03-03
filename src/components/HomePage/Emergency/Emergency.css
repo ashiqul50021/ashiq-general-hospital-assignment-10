@@ -1,0 +1,12 @@
+.emergency-button{
+    background-color: white;
+    color: black;
+    margin-top: 11%;
+    margin-left: 36%;
+    margin-bottom: 9%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 50px;
+}

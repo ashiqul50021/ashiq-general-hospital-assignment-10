@@ -9,3 +9,12 @@
 .menu-color:hover{
     color: black !important;
 }
+
+.nav-button{
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+   
+}

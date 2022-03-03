@@ -1,0 +1,16 @@
+.card-images{
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+}
+.booked-button{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.booked-button:hover{
+    background-color: blueviolet;
+    color: blanchedalmond;
+}

@@ -15,7 +15,10 @@ const DoctorlistHome = () => {
     return (
         <div>
             <div className="container mt-5 mb-5">
-                <h3 className="text-center mb-5">OUR DOCTORS LIST</h3>
+                <div className="text-center">
+                <h3 className="">Our Doctors list</h3>
+                <p>best doctor, best places</p>
+                </div>
                 <div className="row row-cols-1 row-cols-md-4 g-4 ">
                     {
                         doctorslisthome.slice(0,4).map(doctorslisthome => <DoctorsDetails doctorslist={doctorslisthome}></DoctorsDetails>)

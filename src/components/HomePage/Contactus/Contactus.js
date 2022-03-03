@@ -16,8 +16,11 @@ const Contactus = () => {
 
     }
     return (
-        <div className="mt-5 mb-5">
-            <h1 className="text-center">CONTUCT US</h1>
+        <div className="mt-5">
+            <div className="text-center">
+            <h1>Contact Us</h1>
+            <p>any quesion , please contact us</p>
+            </div>
            <div className="container-fluid" style={contactStyle}>
                <div className="row">
                    <div className="col-md-6">

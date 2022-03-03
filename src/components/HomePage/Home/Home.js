@@ -4,15 +4,19 @@ import Contactus from '../Contactus/Contactus';
 import DoctorlistHome from '../Doctorslist/DoctorlistHome';
 import Ourservice from '../OurService/Ourservice';
 import SpecialDoctor from '../SpecialDoctor/SpecialDoctor';
-import bodyimg from '../../../images/bodybag.jpg';
+// import bodyimg from '../../../images/bodybag.jpg';
+import Partner from '../Partner/Partner';
+import Emergency from '../Emergency/Emergency';
+import { Zoom } from 'react-reveal';
+import Testimonial from '../Testimonial/Testimonial';
 
 // import Navbar from '../Navbar/Navbar';
 
 const Home = () => {
     const bodyStyle = {
-        backgroundImage: `url(${bodyimg})`,
+        // backgroundImage: `url(${bodyimg})`,
         backgroundPosition: 'center',
-        backgroundSize: 'cover', 
+        backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         width: '100%',
         height: '100%',
@@ -22,8 +26,16 @@ const Home = () => {
         <div style={bodyStyle}>
             <Banner></Banner>
             <Ourservice></Ourservice>
+            <Zoom>
+            <Emergency />
+            </Zoom>
             <DoctorlistHome></DoctorlistHome>
-            <SpecialDoctor></SpecialDoctor>
+            <Zoom>
+                <SpecialDoctor></SpecialDoctor>
+            </Zoom>
+
+            <Partner />
+            <Testimonial/>
             <Contactus></Contactus>
         </div>
     );

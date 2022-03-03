@@ -1,0 +1,16 @@
+.register-button{
+    background-color: #399BFF;
+    color: white;
+    border-radius: 50px;
+    padding: 14px;
+
+}
+
+.register-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.google-button:hover{
+    color: red;
+}
